@@ -1,0 +1,54 @@
+.camera-section{
+    width: 95%;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+}
+
+.camera-section h2{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.camera-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.camera-card{
+    width: 23%;
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.camera-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.camera-card img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.camera-card h3{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.camera-card p{
+    color: gray;
+    margin: 8px 0;
+}
+
+.camera-card span{
+    color: #B12704;
+    font-size: 22px;
+    font-weight: bold;
+}
